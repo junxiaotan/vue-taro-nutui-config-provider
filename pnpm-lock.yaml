@@ -4,7 +4,7 @@ specifiers:
   '@babel/core': ^7.8.0
   '@babel/runtime': ^7.7.7
   '@nutui/icons-vue-taro': ^0.0.9
-  '@nutui/nutui-taro': ^4.0.0
+  '@nutui/nutui-taro': ^4.0.3-beta.2
   '@tarojs/cli': 3.6.2
   '@tarojs/components': 3.6.2
   '@tarojs/helper': 3.6.2
@@ -42,7 +42,7 @@ specifiers:
 dependencies:
   '@babel/runtime': 7.21.0
   '@nutui/icons-vue-taro': 0.0.9
-  '@nutui/nutui-taro': 4.0.2_gukcl7kz2zsa3mg46tfztplbd4
+  '@nutui/nutui-taro': 4.0.3-beta.2_gukcl7kz2zsa3mg46tfztplbd4
   '@tarojs/components': 3.6.2_vue@3.2.47
   '@tarojs/helper': 3.6.2
   '@tarojs/plugin-framework-vue3': 3.6.2_vue@3.2.47
@@ -1613,8 +1613,8 @@ packages:
     resolution: {integrity: sha512-10VYAtFC+o1X0anGs+y2PgF1NWMeLFz2JVMRw4BWLg6wbtVbYy9wukLxyGhZC6Yf6t39DcwaGVda8paV7K6/Ew==}
     dev: false
 
-  /@nutui/nutui-taro/4.0.2_gukcl7kz2zsa3mg46tfztplbd4:
-    resolution: {integrity: sha512-Y8MJ1F4heyKoiJh3GspZdKIILFmCsC8zvRO2YUMbw498rxnP6v0SXbSc8sgIYobwj+TQmYVnLql9Fno0TVnPPQ==}
+  /@nutui/nutui-taro/4.0.3-beta.2_gukcl7kz2zsa3mg46tfztplbd4:
+    resolution: {integrity: sha512-AOV0fNjozUQTwgIDxNeoAmxl+FuhF/PnL1k2lmbMr53ted1yzhB0lMeyj6MIM40RUs42s1L4hHw/pwuOpve7UQ==}
     peerDependencies:
       unplugin-vue-components: ^0.23.0
     dependencies:
@@ -2582,7 +2582,7 @@ packages:
     resolution: {integrity: sha512-jn7qwGFmJHwUSphV8zZneO3GmtlgLsmhs/LQyVvQbIIa+fzGMUiHI4HXJZL3FT8MJmgXWbLGiVVY7ElvHq6vDA==}
     deprecated: This is a stub types definition. sass provides its own type definitions, so you do not need this installed.
     dependencies:
-      sass: 1.50.0
+      sass: 1.58.3
 
   /@types/semver/7.3.13:
     resolution: {integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==}
@@ -11474,6 +11474,7 @@ packages:
       chokidar: 3.5.3
       immutable: 4.2.4
       source-map-js: 1.0.2
+    dev: true
 
   /sass/1.58.3:
     resolution: {integrity: sha512-Q7RaEtYf6BflYrQ+buPudKR26/lH+10EmO9bBqbmPh/KeLqv8bjpTNqxe71ocONqXq+jYiCbpPUmQMS+JJPk4A==}
@@ -11543,7 +11544,7 @@ packages:
       loglevel: 1.8.1
       loglevel-plugin-prefix: 0.8.4
       pretty-bytes: 5.6.0
-      sass: 1.50.0
+      sass: 1.58.3
       tslib: 1.14.1
 
   /scss-parser/1.0.6:
