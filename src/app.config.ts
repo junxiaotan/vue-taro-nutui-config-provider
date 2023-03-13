@@ -1,5 +1,6 @@
 export default defineAppConfig({
   pages: [
+    'pages/form/index',
     'pages/index/index'
   ],
   window: {

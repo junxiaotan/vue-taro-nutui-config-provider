@@ -1,10 +1,5 @@
 <template>
   <nut-config-provider :theme-vars="themeVars">
-    <nut-form :model-value='formModel'>
-      <nut-form-item label="姓名">
-        <nut-input v-model='formModel.name'></nut-input>
-      </nut-form-item>
-    </nut-form>
     <view class="index">
       <view>
         <img src="" alt="">
@@ -31,9 +26,6 @@ export default {
       primaryColor:'#008000',
       primaryColorEnd:'#008000',
     });
-    const formModel = ref({
-      name: ''
-    });
     const state = reactive({
       msg: '欢迎使用 NutUI4.0 开发小程序',
       msg2: '你成功了～',
@@ -48,14 +40,11 @@ export default {
       state.msg = msg;
       state.type = type;
       state.cover = cover;
-      formModel.value.name = 'test';
-      console.log(formModel.value);
     };
 
     return {
       ...toRefs(state),
       state,
-      formModel,
       themeVars,
       handleClick
     }
