@@ -1,12 +1,10 @@
 <template>
-  <nut-config-provider :theme-vars="themeVars">
     <nut-form :model-value='formModel'>
       <nut-form-item label="姓名">
         <nut-input v-model='formModel.name'></nut-input>
       </nut-form-item>
     </nut-form>
    <nut-button type="primary" @click="handleClick">点我</nut-button>
-  </nut-config-provider>
 </template>
 
 <script>
