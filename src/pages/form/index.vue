@@ -18,11 +18,11 @@ export default {
       primaryColor:'#008000',
       primaryColorEnd:'#008000',
     });
-    const formModel = ref({
+    const formModel = reactive({
       name: ''
     });
     const handleClick = () => {
-      formModel.value.name = 'test';
+      formModel.name = 'test';
     };
 
     return {
